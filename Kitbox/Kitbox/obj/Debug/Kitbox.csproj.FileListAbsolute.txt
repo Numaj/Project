@@ -1,0 +1,13 @@
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\bin\Debug\Kitbox.exe.config
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\bin\Debug\Kitbox.exe
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\bin\Debug\Kitbox.pdb
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.csprojResolveAssemblyReference.cache
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Form1.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Form2.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Form3.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Form4.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Form5.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.Properties.Resources.resources
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.csproj.GenerateResource.Cache
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.exe
+c:\users\jean\documents\visual studio 2015\Projects\Kitbox\Kitbox\obj\Debug\Kitbox.pdb
