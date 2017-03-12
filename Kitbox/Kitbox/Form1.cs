@@ -12,14 +12,22 @@ namespace Kitbox
 {
     public partial class Form1 : Form
     {
+        //Fields
+        public static Form1 Current;
+
+        //Constructor
         public Form1()
         {
+            Current = this;
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        //Event Handlers
+        private void btn_compose_form1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
         }
     }
 }

@@ -28,130 +28,238 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label1_form4 = new System.Windows.Forms.Label();
+            this.label2_form4 = new System.Windows.Forms.Label();
+            this.checkBx_rackdoors4 = new System.Windows.Forms.CheckBox();
+            this.label3_form4 = new System.Windows.Forms.Label();
+            this.comboBx_doortype4 = new System.Windows.Forms.ComboBox();
+            this.label4_form4 = new System.Windows.Forms.Label();
+            this.label5_form4 = new System.Windows.Forms.Label();
+            this.checkBx_rackhandles4 = new System.Windows.Forms.CheckBox();
+            this.label6_form4 = new System.Windows.Forms.Label();
+            this.comboBx_rackheight4 = new System.Windows.Forms.ComboBox();
+            this.label7_form4 = new System.Windows.Forms.Label();
+            this.label8_form4 = new System.Windows.Forms.Label();
+            this.label9_form4 = new System.Windows.Forms.Label();
+            this.label10_form4 = new System.Windows.Forms.Label();
+            this.btn_next__form4 = new System.Windows.Forms.Button();
+            this.btn_back_form4 = new System.Windows.Forms.Button();
+            this.comboBx_Rpanel4 = new System.Windows.Forms.ComboBox();
+            this.comboBx_LPanel4 = new System.Windows.Forms.ComboBox();
+            this.comboBx_RearPanel4 = new System.Windows.Forms.ComboBox();
+            this.comboBx_doorcolor4 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // label1
+            // label1_form4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cabinet details";
+            this.label1_form4.AutoSize = true;
+            this.label1_form4.Location = new System.Drawing.Point(12, 21);
+            this.label1_form4.Name = "label1_form4";
+            this.label1_form4.Size = new System.Drawing.Size(76, 13);
+            this.label1_form4.TabIndex = 0;
+            this.label1_form4.Text = "Rack X details";
             // 
-            // label2
+            // label2_form4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Height of racks";
+            this.label2_form4.AutoSize = true;
+            this.label2_form4.Location = new System.Drawing.Point(12, 70);
+            this.label2_form4.Name = "label2_form4";
+            this.label2_form4.Size = new System.Drawing.Size(79, 13);
+            this.label2_form4.TabIndex = 1;
+            this.label2_form4.Text = "Add rack doors";
+            this.label2_form4.Click += new System.EventHandler(this.label2_Click);
             // 
-            // comboBox1
+            // checkBx_rackdoors4
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(136, 67);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 2;
+            this.checkBx_rackdoors4.AutoSize = true;
+            this.checkBx_rackdoors4.Location = new System.Drawing.Point(106, 70);
+            this.checkBx_rackdoors4.Name = "checkBx_rackdoors4";
+            this.checkBx_rackdoors4.Size = new System.Drawing.Size(15, 14);
+            this.checkBx_rackdoors4.TabIndex = 2;
+            this.checkBx_rackdoors4.UseVisualStyleBackColor = true;
+            this.checkBx_rackdoors4.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // comboBox2
+            // label3_form4
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(136, 107);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 3;
+            this.label3_form4.AutoSize = true;
+            this.label3_form4.Location = new System.Drawing.Point(12, 105);
+            this.label3_form4.Name = "label3_form4";
+            this.label3_form4.Size = new System.Drawing.Size(84, 13);
+            this.label3_form4.TabIndex = 3;
+            this.label3_form4.Text = "Select door type";
+            this.label3_form4.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label3
+            // comboBx_doortype4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 115);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Number of racks";
+            this.comboBx_doortype4.FormattingEnabled = true;
+            this.comboBx_doortype4.Location = new System.Drawing.Point(140, 97);
+            this.comboBx_doortype4.Name = "comboBx_doortype4";
+            this.comboBx_doortype4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_doortype4.TabIndex = 4;
+            this.comboBx_doortype4.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label4
+            // label4_form4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 156);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Width of cabinet";
+            this.label4_form4.AutoSize = true;
+            this.label4_form4.Location = new System.Drawing.Point(12, 158);
+            this.label4_form4.Name = "label4_form4";
+            this.label4_form4.Size = new System.Drawing.Size(65, 13);
+            this.label4_form4.TabIndex = 5;
+            this.label4_form4.Text = "Rack height";
+            this.label4_form4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox1
+            // label5_form4
             // 
-            this.textBox1.Location = new System.Drawing.Point(136, 149);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.label5_form4.AutoSize = true;
+            this.label5_form4.Location = new System.Drawing.Point(300, 70);
+            this.label5_form4.Name = "label5_form4";
+            this.label5_form4.Size = new System.Drawing.Size(90, 13);
+            this.label5_form4.TabIndex = 6;
+            this.label5_form4.Text = "Add door handles";
+            this.label5_form4.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label5
+            // checkBx_rackhandles4
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 196);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Depth of cabinet";
+            this.checkBx_rackhandles4.AutoSize = true;
+            this.checkBx_rackhandles4.Location = new System.Drawing.Point(401, 69);
+            this.checkBx_rackhandles4.Name = "checkBx_rackhandles4";
+            this.checkBx_rackhandles4.Size = new System.Drawing.Size(15, 14);
+            this.checkBx_rackhandles4.TabIndex = 7;
+            this.checkBx_rackhandles4.UseVisualStyleBackColor = true;
+            this.checkBx_rackhandles4.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // textBox2
+            // label6_form4
             // 
-            this.textBox2.Location = new System.Drawing.Point(136, 188);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
+            this.label6_form4.AutoSize = true;
+            this.label6_form4.Location = new System.Drawing.Point(12, 205);
+            this.label6_form4.Name = "label6_form4";
+            this.label6_form4.Size = new System.Drawing.Size(42, 13);
+            this.label6_form4.TabIndex = 8;
+            this.label6_form4.Text = "Colours";
             // 
-            // button1
+            // comboBx_rackheight4
             // 
-            this.button1.Location = new System.Drawing.Point(12, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.comboBx_rackheight4.FormattingEnabled = true;
+            this.comboBx_rackheight4.Location = new System.Drawing.Point(140, 150);
+            this.comboBx_rackheight4.Name = "comboBx_rackheight4";
+            this.comboBx_rackheight4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_rackheight4.TabIndex = 9;
             // 
-            // button2
+            // label7_form4
             // 
-            this.button2.Location = new System.Drawing.Point(233, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Next";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label7_form4.AutoSize = true;
+            this.label7_form4.Location = new System.Drawing.Point(15, 242);
+            this.label7_form4.Name = "label7_form4";
+            this.label7_form4.Size = new System.Drawing.Size(55, 13);
+            this.label7_form4.TabIndex = 10;
+            this.label7_form4.Text = "Left Panel";
+            // 
+            // label8_form4
+            // 
+            this.label8_form4.AutoSize = true;
+            this.label8_form4.Location = new System.Drawing.Point(300, 242);
+            this.label8_form4.Name = "label8_form4";
+            this.label8_form4.Size = new System.Drawing.Size(61, 13);
+            this.label8_form4.TabIndex = 11;
+            this.label8_form4.Text = "Right panel";
+            // 
+            // label9_form4
+            // 
+            this.label9_form4.AutoSize = true;
+            this.label9_form4.Location = new System.Drawing.Point(15, 299);
+            this.label9_form4.Name = "label9_form4";
+            this.label9_form4.Size = new System.Drawing.Size(59, 13);
+            this.label9_form4.TabIndex = 12;
+            this.label9_form4.Text = "Rear panel";
+            // 
+            // label10_form4
+            // 
+            this.label10_form4.AutoSize = true;
+            this.label10_form4.Location = new System.Drawing.Point(15, 357);
+            this.label10_form4.Name = "label10_form4";
+            this.label10_form4.Size = new System.Drawing.Size(93, 13);
+            this.label10_form4.TabIndex = 13;
+            this.label10_form4.Text = "Select door colour";
+            // 
+            // btn_next__form4
+            // 
+            this.btn_next__form4.Location = new System.Drawing.Point(432, 418);
+            this.btn_next__form4.Name = "btn_next__form4";
+            this.btn_next__form4.Size = new System.Drawing.Size(75, 23);
+            this.btn_next__form4.TabIndex = 14;
+            this.btn_next__form4.Text = "Next";
+            this.btn_next__form4.UseVisualStyleBackColor = true;
+            // 
+            // btn_back_form4
+            // 
+            this.btn_back_form4.Location = new System.Drawing.Point(15, 418);
+            this.btn_back_form4.Name = "btn_back_form4";
+            this.btn_back_form4.Size = new System.Drawing.Size(75, 23);
+            this.btn_back_form4.TabIndex = 15;
+            this.btn_back_form4.Text = "Back";
+            this.btn_back_form4.UseVisualStyleBackColor = true;
+            this.btn_back_form4.Click += new System.EventHandler(this.btn_back_form4_Click);
+            // 
+            // comboBx_Rpanel4
+            // 
+            this.comboBx_Rpanel4.FormattingEnabled = true;
+            this.comboBx_Rpanel4.Location = new System.Drawing.Point(386, 239);
+            this.comboBx_Rpanel4.Name = "comboBx_Rpanel4";
+            this.comboBx_Rpanel4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_Rpanel4.TabIndex = 16;
+            // 
+            // comboBx_LPanel4
+            // 
+            this.comboBx_LPanel4.FormattingEnabled = true;
+            this.comboBx_LPanel4.Location = new System.Drawing.Point(140, 241);
+            this.comboBx_LPanel4.Name = "comboBx_LPanel4";
+            this.comboBx_LPanel4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_LPanel4.TabIndex = 17;
+            // 
+            // comboBx_RearPanel4
+            // 
+            this.comboBx_RearPanel4.FormattingEnabled = true;
+            this.comboBx_RearPanel4.Location = new System.Drawing.Point(140, 290);
+            this.comboBx_RearPanel4.Name = "comboBx_RearPanel4";
+            this.comboBx_RearPanel4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_RearPanel4.TabIndex = 18;
+            // 
+            // comboBx_doorcolor4
+            // 
+            this.comboBx_doorcolor4.FormattingEnabled = true;
+            this.comboBx_doorcolor4.Location = new System.Drawing.Point(140, 349);
+            this.comboBx_doorcolor4.Name = "comboBx_doorcolor4";
+            this.comboBx_doorcolor4.Size = new System.Drawing.Size(121, 21);
+            this.comboBx_doorcolor4.TabIndex = 19;
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 326);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(524, 454);
+            this.Controls.Add(this.comboBx_doorcolor4);
+            this.Controls.Add(this.comboBx_RearPanel4);
+            this.Controls.Add(this.comboBx_LPanel4);
+            this.Controls.Add(this.comboBx_Rpanel4);
+            this.Controls.Add(this.btn_back_form4);
+            this.Controls.Add(this.btn_next__form4);
+            this.Controls.Add(this.label10_form4);
+            this.Controls.Add(this.label9_form4);
+            this.Controls.Add(this.label8_form4);
+            this.Controls.Add(this.label7_form4);
+            this.Controls.Add(this.comboBx_rackheight4);
+            this.Controls.Add(this.label6_form4);
+            this.Controls.Add(this.checkBx_rackhandles4);
+            this.Controls.Add(this.label5_form4);
+            this.Controls.Add(this.label4_form4);
+            this.Controls.Add(this.comboBx_doortype4);
+            this.Controls.Add(this.label3_form4);
+            this.Controls.Add(this.checkBx_rackdoors4);
+            this.Controls.Add(this.label2_form4);
+            this.Controls.Add(this.label1_form4);
             this.Name = "Form4";
-            this.Text = "Kitbox";
+            this.Text = "Kitbox - Rack details";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,16 +267,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1_form4;
+        private System.Windows.Forms.Label label2_form4;
+        private System.Windows.Forms.CheckBox checkBx_rackdoors4;
+        private System.Windows.Forms.Label label3_form4;
+        private System.Windows.Forms.ComboBox comboBx_doortype4;
+        private System.Windows.Forms.Label label4_form4;
+        private System.Windows.Forms.Label label5_form4;
+        private System.Windows.Forms.CheckBox checkBx_rackhandles4;
+        private System.Windows.Forms.Label label6_form4;
+        private System.Windows.Forms.ComboBox comboBx_rackheight4;
+        private System.Windows.Forms.Label label7_form4;
+        private System.Windows.Forms.Label label8_form4;
+        private System.Windows.Forms.Label label9_form4;
+        private System.Windows.Forms.Label label10_form4;
+        private System.Windows.Forms.Button btn_next__form4;
+        private System.Windows.Forms.Button btn_back_form4;
+        private System.Windows.Forms.ComboBox comboBx_Rpanel4;
+        private System.Windows.Forms.ComboBox comboBx_LPanel4;
+        private System.Windows.Forms.ComboBox comboBx_RearPanel4;
+        private System.Windows.Forms.ComboBox comboBx_doorcolor4;
     }
 }

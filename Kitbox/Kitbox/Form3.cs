@@ -12,9 +12,38 @@ namespace Kitbox
 {
     public partial class Form3 : Form
     {
+        //Fields
+        public static Form3 Current;
+
+        //Constructor
         public Form3()
         {
+            Current = this;
             InitializeComponent();
+        }
+
+        //Event handlers
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_next_form3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
+        }
+
+        private void btn_back_form3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2.Current.Show();
         }
     }
 }
