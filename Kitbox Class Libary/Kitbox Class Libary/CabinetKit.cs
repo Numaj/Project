@@ -65,7 +65,11 @@ namespace Kitbox_Class_Libary
         {
             Identical_rack_height = height;
         }
-        public void Select_SteelBars_colour(double height)
+        public void Select_SteelBars_colour(string colour )
+        {
+
+        }
+        public void Select_DoorAdd(bool doorChoice)
         {
 
         }
