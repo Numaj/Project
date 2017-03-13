@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kitbox_Class_Libary
 {
-    public class Class1
+    public class Door
     {
     }
 }
