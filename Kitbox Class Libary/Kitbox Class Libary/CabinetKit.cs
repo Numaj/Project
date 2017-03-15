@@ -8,6 +8,14 @@ namespace Kitbox_Class_Libary
 {
     public class CabinetKit
     {
+        /*------------------------------------------------------------------------------------------------
+         * This class represents a Kitbox cabinet kit.
+         * A cabinet kit contains a list of racks which directly contains the full list of elements
+         * needed to construct the cabinet kit(s) that was or were orderd.
+         * Last update 15/03/2017 - Added comments by Jean-Rene N.
+         * -----------------------------------------------------------------------------------------------
+         */
+
         //Fields
         private int nbr_racks;
         private double width;

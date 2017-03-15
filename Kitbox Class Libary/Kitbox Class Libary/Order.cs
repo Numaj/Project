@@ -10,7 +10,7 @@ namespace Kitbox_Class_Libary
     {
         /*------------------------------------------------------------------------------------------------
          * This class represents an order created by a Kitbox client.
-         * An order contains a list of cabinet kits which contains the full list of elements
+         * An order contains a list of cabinet kits which eventually contains the full list of elements
          * needed to construct the cabinet kit.
          * Last update 15/03/2017 - Added comments by Jean-Rene N.
          * -----------------------------------------------------------------------------------------------
