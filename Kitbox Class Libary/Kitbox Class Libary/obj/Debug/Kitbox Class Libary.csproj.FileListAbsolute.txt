@@ -1,0 +1,5 @@
+C:\Kitbox git\Kitbox Class Libary\Kitbox Class Libary\obj\Debug\Kitbox Class Libary.csprojResolveAssemblyReference.cache
+C:\Kitbox git\Kitbox Class Libary\Kitbox Class Libary\bin\Debug\Kitbox Class Libary.dll
+C:\Kitbox git\Kitbox Class Libary\Kitbox Class Libary\bin\Debug\Kitbox Class Libary.pdb
+C:\Kitbox git\Kitbox Class Libary\Kitbox Class Libary\obj\Debug\Kitbox Class Libary.dll
+C:\Kitbox git\Kitbox Class Libary\Kitbox Class Libary\obj\Debug\Kitbox Class Libary.pdb
