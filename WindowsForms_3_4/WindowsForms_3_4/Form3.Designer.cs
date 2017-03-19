@@ -63,7 +63,7 @@
             // 
             // Rechercher
             // 
-            this.Rechercher.Location = new System.Drawing.Point(152, 45);
+            this.Rechercher.Location = new System.Drawing.Point(151, 45);
             this.Rechercher.Name = "Rechercher";
             this.Rechercher.Size = new System.Drawing.Size(75, 23);
             this.Rechercher.TabIndex = 3;
